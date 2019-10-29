@@ -9,5 +9,7 @@ namespace Services.Common
     public class MessageAndVariables
     {
         public const string salt = "123";
+        public const string passError = "Password error";
+        public const string passRequired = "Password required";
     }
 }
