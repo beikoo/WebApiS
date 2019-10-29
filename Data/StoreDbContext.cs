@@ -12,7 +12,7 @@ namespace Data
     {
 
         public StoreDbContext()
-            : base("name=StoreDbContext")
+            : base("StoreDbContext")
         {
             Database.SetInitializer(new MigrateDatabaseToLatestVersion<StoreDbContext, Configuration>());
 

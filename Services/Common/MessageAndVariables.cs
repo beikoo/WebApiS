@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace Services.Common
 {
-    class Class1
+    public class MessageAndVariables
     {
+        public const string salt = "123";
     }
 }
