@@ -12,3 +12,4 @@ namespace Models
         public virtual ICollection<Photo> Photos { get; set; }
     }
 }
+    
