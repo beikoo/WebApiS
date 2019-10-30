@@ -17,7 +17,11 @@ namespace Services.Models
         [Compare("Password",ErrorMessage = MessageAndVariables.passError)]
         [Required(ErrorMessage = MessageAndVariables.passError)]
         public string ConfirmPassword { get; set; }
+        [MaxLength(50)]
+        [MinLength(1)]
         public string FirstName { get; set; }
+        [MaxLength(50)]
+        [MinLength(1)]
         public string LastName { get; set; }
     }
 }

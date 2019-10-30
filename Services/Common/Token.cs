@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace Services.Common
 {
-    class Token
+    public class Token
     {
+
     }
 }
